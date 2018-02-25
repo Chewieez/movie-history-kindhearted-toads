@@ -1,8 +1,5 @@
 # Movie History
 
-
-* API https://www.themoviedb.org
-
 ## Features
 User can create an account and search for movies that they would like to watch from https://www.themoviedb.org database. The user can then add a movie to a list of movies they'd like to watch. After watching a movie, the user can mark the movie as watched on their list and give it a star rating. 
 
