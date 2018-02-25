@@ -1,27 +1,39 @@
 # Movie History
 
-You will be split up into teams, and your team will build a new application to keep track of movies that you have seen, and want to see, with your own ratings.
-* https://www.themoviedb.org
-* Request an api key
 
-## Requirements
+* API https://www.themoviedb.org
 
-1. Must have the ability to register a user in Firebase
-1. Must have the ability to log in
-1. You must use Firebase to store movies
-1. You must be able to add movies
-1. You must be able to remove movies
-1. Each movie must have the following properties
-   1. Movie name
-   1. Year released
-   1. List of major actors
-   1. Movie poster, if available
-   1. An integer rating of 1-5
-   1. A boolean value that, if true, means that you have watched the movie
-1. Use Grunt to automate all the tasks needed during development.
-1. For the layout, we suggest Bootstrap, but if you want to stretch your legs, you can try [Materialize](http://materializecss.com/).
-1. Use of project tickets and features
+## Features
+User can create an account and search for movies that they would like to watch from https://www.themoviedb.org database. The user can then add a movie to a list of movies they'd like to watch. After watching a movie, the user can mark the movie as watched on their list and give it a star rating. 
 
-## Mockup
+Users can login and see a list of the movies they are tracking and filter the list by movies they have not watched yet and movies they have watched. 
 
-Review the [basic design](https://app.moqups.com/chortlehoort/uGBbLbK46Y/view/page/a3a0e7bf6) and ask questions to your product owner for clarification, or ideas on features.
+
+## Technologies
+Javascript, HTML, CSS, Materialize, Firebase, Grunt
+
+## Download
+Install Http-server if needed via npm. https://www.npmjs.com/package/http-server
+```sh
+npm install http-server
+```
+
+
+```sh
+# Clone the repo by copying the link via the green Clone button in top right corner
+git clone <paste repo link here>
+
+#Move into the new folder that was just downloaded
+cd movie-history-kindhearted-toads
+
+#Install dependencies via npm
+npm install
+
+#Run grunt to build the bundle.js file
+grunt
+
+#Run http-server, -o will automatically open a browser window for you
+http-servce -o
+```
+
+
